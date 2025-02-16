@@ -2,38 +2,6 @@
 // * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
 // * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
 // */
-//package Week3.Task1;
-//
-//import java.util.*;
-//
-///**
-// *
-// * @author Sai Hari
-// */
-//class Student {
-//
-//    String name;
-//    int[] marks;
-//
-//    public Student(String name, int[] marks) {
-//        this.name = name;
-//        this.marks = marks;
-//    }
-//
-//    public void totalAndAverage() {
-//        int total = Arrays.stream(marks).sum();
-//        int avg = Arrays.stream(marks).sum()/marks.length;
-//        System.out.println("Total :" + total + ", Average : " + avg);
-//    }
-//
-//}
-//
-//public class Task2 {
-//
-//    public static void main(String[] args) {
-//              
-//    }
-//}
 package Week3.Task1;
 
 import java.util.*;
