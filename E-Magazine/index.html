@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Magazine</title>
+    <script src="script.js"></script>
+    <link href="styles.css" rel="stylesheet">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="left-head">
+            <p onclick="navigateTo('home')">E - MAGAZINE</p>
+        </div>
+        <div class="right-head">
+            <p onclick="navigateTo('home')">HOME</p>
+            <p onclick="navigateTo('categories')">CATEGORIES</p>
+            <p onclick="navigateTo('multimedia')">MULTIMEDIA</p>
+            <p onclick="navigateTo('contact')">CONTACT</p>
+        </div>
+    </div>
+    <div id="home">
+        <div class="hline">
+            <p>TRENDING NEWS</p>
+        </div>
+        <div class="cont">
+                <div class="container">
+                <img src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/202502/67b01da82cf53-cbse-board-exams-2025-141306443-16x9.jpeg?size=1280:720">
+                <p style="font-weight:bold;">Important Questions From Social Science Sample Paper For CBSE Class 10 Exam</p>
+                <p>CBSE Board Exams 2025: The exams are being conducted across 7,842 centres in India and 26 countries 
+                    abroad, with nearly 42 lakh students appearing for the 2025 session</p>
+                <a href="https://www.ndtv.com/education/cbse-board-exams-2025-check-important-questions-from-social-science-sample-paper-for-class-10-7771967" target="_blank">Read More...</a>
+                
+            </div>
+            
+            <div class="container">
+                <img src="https://chennaivision.com/wp-content/uploads/2025/01/actor-ajith-dubai-racing-accident.webp">
+                <p style="font-weight:bold;">Ajith Kumar meets with another car crash in Spain – Is he Safe?</p>
+                <p>Tamil superstar Ajith Kumar’s passion for speed has once again taken a dangerous turn, as his car was involved in a terrifying 
+                    crash during a high-speed racing event in Valencia, Spain one again...</p>
+                <a href="https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/ajith-kumar-meets-with-another-car-crash-in-spain-is-he-safe/articleshow/118498614.cms" target="_blank">Read More...</a>
+                
+            </div>
+            <div class="container">
+                <img src="https://c.ndtvimg.com/2025-02/bqhu3q8g_telangana-tunnel-collapse_625x300_23_February_25.jpg?im=FeatureCrop,algorithm=dnn,width=240,height=149">
+                <p style="font-weight:bold;">Exclusive Footage Shows Rescue Mission Inside Collapsed Telangana Tunnel</p>
+                <p>Rescue workers are calling out the names of the trapped workers as they make their way inside the tunnel
+                     a portion of which collapsed yesterday in Telangana, showed exclusive...</p>
+                <a href="https://www.ndtv.com/india-news/exclusive-inside-collapsed-telangana-tunnel-rescuers-look-for-trapped-workers-7773516" target="_blank">Read More...</a>
+                
+            </div>
+            <div class="container">
+                <img src="https://c.ndtvimg.com/2025-02/g06sdfs8_tesla_625x300_22_February_25.jpeg?downsize=240:149">
+                <p style="font-weight:bold;">How Much Will Tesla Car Cost In India After Reduced Import Duty? Report Says</p>
+                <p>Elon Musk's Tesla has officially begun its hiring process in India, marking a significant step towards
+                     its long-anticipated entry into the domestic market...</p>
+                <a href="https://www.ndtv.com/india-news/how-much-will-elon-musks-tesla-car-cost-in-india-after-reduced-import-duty-report-says-7767450" target="_blank">Read More...</a>
+                
+            </div>
+        </div>
+    </div>
+    
+    <div id="categories" class="category">
+        <div class="list">
+            <p>SELECT CATRGORY</p>
+            <button onclick="changeContent('health')">HEALTH</button>
+            <button onclick="changeContent('sports')">SPORTS</button>
+            <button onclick="changeContent('cinema')">CINEMA</button>
+            <button onclick="changeContent('technology')">TECHNOLOGY</button>
+        </div>
+        <div class="conbox" id="contentBox">
+            <div class="container2">
+                <img src="https://post.healthline.com/wp-content/uploads/2021/08/broccoli-sprouts-1296x728-header.jpg">
+                <p style="font-weight:bold;">Could a broccoli sprout compound lower blood sugar?</p>
+    
+                <p>Prediabetes occurs when an individual’s blood sugar levels are elevated beyond the normal range but have not yet reached 
+                    the threshold for a type 2 diabetes diagnosis. Now, a new study from the University of Gothenburg in Sweden, published...</p>
+                <a href="https://www.medicalnewstoday.com/articles/could-a-broccoli-sprout-compound-lower-blood-sugar" target="_blank">Read More...</a>
+            </div>
+            <div class="container2">
+                <img style=" padding-top: 10px;" src="https://s33929.pcdn.co/wp-content/uploads/sites/651/2023/11/shutterstock_2177705837-min-1600x1067.jpg">
+                <p style="font-weight:bold;">Artificial sweetener may increase heart disease risk by triggering insulin surges</p>
+                <p>Artificial sweetenersTrusted Source are widely used in baked goods, soft drinks, candy, puddings, canned foods, jams and jellies, dairy products, and 
+                many other foods and beverages, particularly...</p>
+                <a href="https://www.medicalnewstoday.com/articles/artificial-sweetener-triggers-insulin-spike-leading-to-blood-vessel-inflammation-in-mice" target="_blank">Read More...</a>
+            </div>
+            <div class="container2">
+                <img src="https://static.toiimg.com/thumb/msid-113605472,width-1280,height-720,resizemode-4/113605472.jpg">
+                <p style="font-weight:bold;">A natural supplement may help people with a new type of heart disease</p>
+                <p>Experts are interested in finding the most effective treatments for new heart conditions, such as triglyceride deposit cardiomyovasculopathy...</p>
+                <a href="https://www.medicalnewstoday.com/articles/natural-supplement-tricaprin-may-help-people-new-type-heart-disease" target="_blank">Read More...</a>
+                
+            </div>
+            <div class="container2">
+                <img src="https://i.ytimg.com/vi/VHWgPPDENMo/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDvqMR-QI7VQGDT2lP0CXmlUpPDzw">
+                <p style="font-weight:bold;">Muscles: Why are they important?</p>
+                <p>Muscles and nerve fibers allow a person to move their body and enable the internal organs to function. There are more than 600 muscles in the human body.
+                     People also have different types of muscle....</p>
+                     <a href="https://www.medicalnewstoday.com/articles/249192" target="_blank">Read More...</a>
+                     
+            </div> 
+        </div>
+    </div>
+    <div id="multimedia" class="page">
+        <div class="hline2">
+            <p>TRENDING VIDEOS</p>
+        </div>
+        <div class="vids">
+            <div class="vid1">
+                <div class="vid-des">Trending Now</div>
+                <iframe width="320" height="320" src="https://www.youtube.com/embed/ew80ErBVaIk"></iframe>
+            </div>
+            <div class="vid1">
+                <div class="vid-des">Trending In Movies</div>
+                <iframe width="320" height="320" src="https://www.youtube.com/embed/oZCbTceAF70"></iframe>
+            </div>
+            <div class="vid1">
+                <div class="vid-des">Trending In Movies</div>
+                <iframe width="320" height="320" src="https://www.youtube.com/embed/Px-nmrgl7Hs"></iframe>
+            </div>
+            <div class="vid1">
+                <div class="vid-des">Trending In Music</div>
+                <iframe width="320" height="320" src="https://www.youtube.com/embed/0nAvxmluHIM"></iframe>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="contact" class="page">
+        <div class="hline2">
+            <p>CONTACT US</p>
+        </div>
+        <form class="forms">
+            <label>Name:</label><br>
+            <input type="text" name="name"><br>
+            <label>Email:</label><br>
+            <input type="email" name="email"><br>
+            <label>Message:</label><br>
+            <textarea name="message"></textarea>
+            <button type="submit">SUBMIT</button>
+        </form> 
+    </div>
+</body>
+</html>
