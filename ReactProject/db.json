@@ -1,0 +1,74 @@
+{
+  "bikes": [
+    {
+      "id": "1",
+      "Model": "Royal Enfield Classic 350",
+      "Year": "2009",
+      "Image": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20190226015048_Royal-Enfield-Classic-350-ABS.jpg&w=700&c=1",
+      "Price": "₹1,80,000"
+    },
+    {
+      "id": "2",
+      "Model": "Royal Enfield Meteor 350",
+      "Year": "2020",
+      "Image": "https://akm-img-a-in.tosshub.com/indiatoday/images/bodyeditor/202011/Stellar-1200x720.jpg?pLTRLvBW4lNNBsGVQfc5NXRSsUPLPaEV?size=750:*",
+      "Price": "₹2,00,000"
+    },
+    {
+      "id": "3",
+      "Model": "Royal Enfield Himalayan",
+      "Year": "2016",
+      "Image": "https://imgd.aeplcdn.com/1056x594/n/bw/models/colors/royal-enfield-select-model-kaza-brown-1698908621684.png?q=80",
+      "Price": "₹2,10,000"
+    },
+    {
+      "id": "4",
+      "Model": "Royal Enfield Interceptor 650",
+      "Year": "2021",
+      "Image": "https://imgd.aeplcdn.com/664x374/n/bw/models/colors/royal-enfield-select-model-cali-green-1678958996736.jpg?q=80",
+      "Price": "₹2,85,000"
+    },
+    {
+      "id": "5",
+      "Model": "Royal Enfield Continental GT 650",
+      "Year": "2021",
+      "Image": "https://www.royalenfield.com/content/dam/royal-enfield/united-kingdom/motorcycles/continental-gt/colours/studio-shots/new/mr-clean/side-view.png",
+      "Price": "₹3,05,000"
+    },
+    {
+      "id": "6",
+      "Model": "Royal Enfield Bullet 350",
+      "Year": "2021",
+      "Image": "https://images.tractorjunction.com/battalion_black_2_1326244a88.png?format=webp",
+      "Price": "₹1,50,000"
+    },
+    {
+      "id": "7",
+      "Model": "Royal Enfield Thunderbird 350X",
+      "Year": "2021",
+      "Image": "https://imgd.aeplcdn.com/664x374/bw/ec/33557/Royal-Enfield-Thunderbird-350X-Front-threequarter-122860.jpg?wm=0&q=80",
+      "Price": "₹1,90,000"
+    },
+    {
+      "id": "8",
+      "Model": "Royal Enfield Classic 500",
+      "Year": "2021",
+      "Image": "https://www.royalenfield.com/content/dam/royal-enfield/south-korea/motorcycles/classic/new-campaign/colors/studio-shots/side-view-desert-storm.png",
+      "Price": "₹2,00,000"
+    },
+    {
+      "id": "9",
+      "Model": "Royal Enfield Hunter 350",
+      "Year": "2021",
+      "Image": "https://media.zigcdn.com/media/model/2022/Aug/re-hunter-350-mn-right-side-view_600x400.jpg",
+      "Price": "₹1,70,000"
+    },
+    {
+      "id": "343c",
+      "Model": "Guerrilla 450",
+      "Year": "2025",
+      "Image": "https://preview.redd.it/royal-enfield-guerrilla-450-launched-v0-ic0kut1d2ycd1.png?width=640&crop=smart&auto=webp&s=5feb794e9c6efe2907245400599ccaaf74acd3a6",
+      "Price": "2,50,000"
+    }
+  ]
+}
