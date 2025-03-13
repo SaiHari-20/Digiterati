@@ -1,0 +1,122 @@
+<body>
+  <div class="container">
+    <div class="row">
+      <!-- BMI Calculator -->
+      <div class="col-md-6">
+        <div class="card mb-4" style="background: rgba(0, 0, 0, 0.5);">
+          <div
+            class="card-body"
+            style="display: flex; flex-direction: column; gap: 1rem"
+          >
+            <h2 class="card-title" style="color: teal">BMI CALCULATOR</h2>
+            <form>
+              <div class="form-group">
+                <label for="height" style="color: white">Height in cm:</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="height"
+                  [(ngModel)]="height"
+                  name="height"
+                  required
+                />
+              </div>
+              <div class="form-group" style="margin-top: 20px">
+                <label for="weight" style="color: white">Weight in kgs:</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="weight"
+                  [(ngModel)]="weight"
+                  name="weight"
+                  required
+                />
+              </div>
+              <button
+                type="button"
+                class="btn"
+                style="background-color: teal; color: white; width: 150px ;margin-top: 20px"
+                (click)="calculateBMI()"
+              >
+                Calculate BMI
+              </button>
+            </form>
+            <p class="mt-3" style="color: white">
+              BMI Result: {{ bmiResult }}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Calorie Calculator -->
+      <div class="col-md-6">
+        <div class="card mb-4" style="background: rgba(0, 0, 0, 0.5);">
+          <div
+            class="card-body"
+            style="display: flex; flex-direction: column; gap: 1rem"
+          >
+            <h2 class="card-title" style="color: teal">CALORIE CALCULATOR</h2>
+            <form>
+              <div class="form-group">
+                <label for="age" style="color: white">Age:</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="age"
+                  [(ngModel)]="age"
+                  name="age"
+                  required
+                />
+              </div>
+              <div class="form-group" style="margin-top: 20px">
+                <label for="gender" style="color: white">Gender:</label>
+                <select
+                  class="form-control"
+                  id="gender"
+                  [(ngModel)]="gender"
+                  name="gender"
+                  required
+                >
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                </select>
+              </div>
+              <div class="form-group" style="margin-top: 20px">
+                <label for="activity-level" style="color: white"
+                  >Activity Level:</label
+                >
+                <select
+                  class="form-control"
+                  id="activity-level"
+                  [(ngModel)]="activityLevel"
+                  name="activity-level"
+                  required
+                >
+                  <option value="sedentary">Sedentary</option>
+                  <option value="lightly active">Lightly active</option>
+                  <option value="moderately active">Moderately active</option>
+                  <option value="active">Active</option>
+                  <option value="very active">Very active</option>
+                </select>
+              </div>
+              <button
+                type="button"
+                class="btn"
+                style="background-color: teal; color: white; width: 200px ;margin-top: 20px"
+                (click)="calculateCalories()"
+              >
+                Calculate Calories
+              </button>
+            </form>
+            <p
+              class="mt-3"
+              style="color: white"
+            >
+              Calories needed: {{ caloriesResult }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

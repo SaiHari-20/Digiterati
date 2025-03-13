@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    height: 85vh;
+}
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 270px;
+}
+.card-header {
+    background-color: #f8f9fa;
+    padding: 16px;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.card-body {
+    padding: 16px;
+}
+.card-img-top {
+    width: 100%;
+    height: 175px; /* Set a fixed height */
+    object-fit: cover; /* Ensure the image covers the area */
+
+}

@@ -1,0 +1,17 @@
+.navbar{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 105.5px;
+    background-color: teal;
+}
+.navbar-brand{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.collapse{
+    font-size: 18px;
+    display: flex;
+    margin-right: 25px;
+}

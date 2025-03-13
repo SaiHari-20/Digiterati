@@ -1,0 +1,170 @@
+{
+  "chest": [
+    {
+      "id": 1,
+      "name": "Bench Press",
+      "equipment": "Barbell",
+      "experienceLevel": "Intermediate",
+      "imageUrl": "https://cdn.muscleandstrength.com/sites/default/files/barbell-bench-press_0.jpg",
+      "focus": "Middle Chest"
+    },
+    {
+      "id": 2,
+      "name": "Incline Dumbbell Press",
+      "equipment": "Dumbbells",
+      "experienceLevel": "Intermediate",
+      "imageUrl": "https://cdn.muscleandstrength.com/sites/default/files/incline-dumbbell-bench-press_0.jpg",
+      "focus": "Upper Chest"
+    },
+    {
+      "id": 3,
+      "name": "Push-Ups",
+      "equipment": "Bodyweight",
+      "experienceLevel": "Beginner",
+      "imageUrl": "https://cdn.muscleandstrength.com/sites/default/files/push-ups.jpg",
+      "focus": "Middle Chest"
+    },
+    {
+      "id": 4,
+      "name": "Dips",
+      "equipment": "Parallel Bars",
+      "experienceLevel": "Advanced",
+      "imageUrl": "https://cdn.muscleandstrength.com/sites/default/files/chest-dip.jpg",
+      "focus": "Lower Chest"
+    },
+    {
+      "id": 5,
+      "name": "Cable Fly",
+      "equipment": "Cable Machine",
+      "experienceLevel": "Intermediate",
+      "imageUrl": "https://cdn.muscleandstrength.com/sites/default/files/standing-cable-fly1.jpg",
+      "focus": "Middle Chest"
+    },
+    {
+      "id": 6,
+      "name": "Decline Bench Press",
+      "equipment": "Barbell",
+      "experienceLevel": "Advanced",
+      "imageUrl": "https://cdn.muscleandstrength.com/sites/default/files/decline-bench-press-1.jpg",
+      "focus": "Lower Chest"
+    },
+    {
+      "id": 7,
+      "name": "Pec Deck Machine",
+      "equipment": "Machine",
+      "experienceLevel": "Beginner",
+      "imageUrl": "https://cdn.muscleandstrength.com/sites/default/files/machine-fly.jpg",
+      "focus": "Middle Chest"
+    },
+    {
+      "id": 8,
+      "name": "Dumbbell Fly",
+      "equipment": "Dumbbells",
+      "experienceLevel": "Intermediate",
+      "imageUrl": "https://cdn.muscleandstrength.com/sites/default/files/dumbbell-fly.jpg",
+      "focus": "Middle Chest"
+    },
+    {
+      "id": 9,
+      "name": "Chest Press Machine",
+      "equipment": "Machine",
+      "experienceLevel": "Beginner",
+      "imageUrl": "https://cdn.muscleandstrength.com/sites/default/files/machine-bench-press_0.jpg",
+      "focus": "Middle Chest"
+    },
+    {
+      "id": 10,
+      "name": "Dumbbell Pullover",
+      "equipment": "Dumbbell",
+      "experienceLevel": "Intermediate",
+      "imageUrl": "https://cdn.muscleandstrength.com/sites/default/files/dumbbell-pullover.jpg",
+      "focus": "Upper Chest"
+    }
+  ],
+  "triceps": [
+    {
+      "id": 1,
+      "name": "Triceps Dips",
+      "equipment": "Parallel Bars",
+      "experienceLevel": "Advanced",
+      "imageUrl": "https://cdn.muscleandstrength.com/sites/default/files/triceps-dip.jpg",
+      "focus": "Triceps"
+    },
+    {
+      "id": 2,
+      "name": "Overhead Triceps Extension",
+      "equipment": "Dumbbell",
+      "experienceLevel": "Intermediate",
+      "imageUrl": "https://cdn.muscleandstrength.com/sites/default/files/dumbbell-overhead-triceps-extension.jpg",
+      "focus": "Triceps"
+    },
+    {
+      "id": 3,
+      "name": "Triceps Pushdown",
+      "equipment": "Cable Machine",
+      "experienceLevel": "Beginner",
+      "imageUrl": "https://cdn.muscleandstrength.com/sites/default/files/triceps-pushdown.jpg",
+      "focus": "Triceps"
+    }
+  ],
+  "back": [
+    {
+      "id": 1,
+      "name": "Pull-Ups",
+      "equipment": "Bodyweight",
+      "experienceLevel": "Advanced",
+      "imageUrl": "https://cdn.muscleandstrength.com/sites/default/files/pull-ups.jpg",
+      "focus": "Upper Back"
+    }
+  ],
+  "biceps": [
+    {
+      "id": 1,
+      "name": "Barbell Curl",
+      "equipment": "Barbell",
+      "experienceLevel": "Intermediate",
+      "imageUrl": "https://cdn.muscleandstrength.com/sites/default/files/barbell-curl.jpg",
+      "focus": "Biceps"
+    }
+  ],
+  "shoulders": [
+    {
+      "id": 1,
+      "name": "Shoulder Press",
+      "equipment": "Dumbbells",
+      "experienceLevel": "Intermediate",
+      "imageUrl": "https://cdn.muscleandstrength.com/sites/default/files/shoulder-press.jpg",
+      "focus": "Shoulders"
+    }
+  ],
+  "legs": [
+    {
+      "id": 1,
+      "name": "Squats",
+      "equipment": "Barbell",
+      "experienceLevel": "Intermediate",
+      "imageUrl": "https://cdn.muscleandstrength.com/sites/default/files/squats.jpg",
+      "focus": "Legs"
+    }
+  ],
+  "abs": [
+    {
+      "id": 1,
+      "name": "Crunches",
+      "equipment": "Bodyweight",
+      "experienceLevel": "Beginner",
+      "imageUrl": "https://cdn.muscleandstrength.com/sites/default/files/crunches.jpg",
+      "focus": "Abs"
+    }
+  ],
+  "cardio": [
+    {
+      "id": 1,
+      "name": "Jump Rope",
+      "equipment": "Rope",
+      "experienceLevel": "Beginner",
+      "imageUrl": "https://cdn.muscleandstrength.com/sites/default/files/jump-rope.jpg",
+      "focus": "Cardio"
+    }
+  ]
+}
