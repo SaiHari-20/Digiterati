@@ -1,51 +1,51 @@
 <body>
-    <div class="container mt-4">
-      <h2
-        class="text-center mb-4"
-        style="
-          background-color: teal;
-          color: white;
-          padding: 10px;
-          border-radius: 5px;
-          height: 70px;
-          width: 100%;
-        "
-      >
-        LEG WORKOUTS
-      </h2>
   
-      <div class="d-flex flex-wrap justify-content-center">
-        <div class="p-2" style="width: 20%" *ngFor="let workout of legsWorkouts">
+  <div class="container mt-4">
+    <h2
+      class="text-center mb-4"
+      style="
+        background-color: teal;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        height: 70px;
+        width: 100%;
+      "
+    >
+      LEG WORKOUTS
+    </h2>
+
+    <div class="d-flex flex-wrap justify-content-center">
+      <div class="p-2" style="width: 20%" *ngFor="let workout of legWorkouts">
+        <div
+          class="card shadow-lg border-0"
+          style="height: 280px; display: flex; flex-direction: column; background-color: lightgray;"
+        >
+          <img
+            [src]="workout.imageUrl"
+            class="card-img-top img-fluid"
+            alt="{{ workout.name }}"
+            style="height: 150px; object-fit: cover"
+          />
           <div
-            class="card shadow-lg border-0"
-            style="height: 280px; display: flex; flex-direction: column; background-color: lightgray;"
+            class="card-body text-center"
+            style="flex-grow: 1; overflow: hidden; padding: 10px"
           >
-            <img
-              [src]="workout.imageUrl"
-              class="card-img-top img-fluid"
-              alt="{{ workout.name }}"
-              style="height: 150px; object-fit: cover"
-            />
-            <div
-              class="card-body text-center"
-              style="flex-grow: 1; overflow: hidden; padding: 10px"
-            >
-              <h4 class="card-title" style="font-size: 15px;color: teal;">
-                {{ workout.name }}
-              </h4>
-              <p class="card-text" style="font-size: 12px;">
-                <strong>Equipment:</strong> {{ workout.equipment }}
-              </p>
-              <p class="card-text" style="font-size: 12px">
-                <strong>Focus:</strong> {{ workout.focus }}
-              </p>
-              <p class="card-text" style="font-size: 12px">
-                <strong>Experience Level:</strong> {{ workout.experienceLevel }}
-              </p>
-            </div>
+            <h4 class="card-title" style="font-size: 15px;color: teal;">
+              {{ workout.name }}
+            </h4>
+            <p class="card-text" style="font-size: 12px;">
+              <strong>Equipment:</strong> {{ workout.equipment }}
+            </p>
+            <p class="card-text" style="font-size: 12px">
+              <strong>Focus:</strong> {{ workout.focus }}
+            </p>
+            <p class="card-text" style="font-size: 12px">
+              <strong>Experience Level:</strong> {{ workout.experienceLevel }}
+            </p>
           </div>
         </div>
       </div>
     </div>
-  </body>
-  
+  </div>
+</body>

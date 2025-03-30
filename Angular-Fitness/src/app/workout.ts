@@ -4,5 +4,6 @@ export interface workout {
     equipment: string;
     experienceLevel: string;
     imageUrl: string;
+    focus:string;
   }
   

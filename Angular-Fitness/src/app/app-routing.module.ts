@@ -13,6 +13,9 @@ import { AbsComponent } from './pages/workout-list/abs/abs.component';
 import { CardioComponent } from './pages/workout-list/cardio/cardio.component';
 import { ShouldersComponent } from './pages/workout-list/shoulders/shoulders.component';
 import { LegsComponent } from './pages/workout-list/legs/legs.component';
+import { BeginnerComponent } from './pages/workout-plans/beginner/beginner.component';
+import { IntermediateComponent } from './pages/workout-plans/intermediate/intermediate.component';
+import { ProComponent } from './pages/workout-plans/pro/pro.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -31,7 +34,13 @@ const routes: Routes = [
       { path: 'cardio', component: CardioComponent },
     ],
   },
-  { path: 'workout-plans', component: WorkoutPlansComponent },
+  { path: 'workout-plans', component: WorkoutPlansComponent,
+    children:[
+      {path:'beginner',component:BeginnerComponent},
+      {path:'intermediate',component:IntermediateComponent},
+      {path:'pro',component:ProComponent},
+    ]
+   },
   { path: 'login', component: LoginComponent },
 ];
 

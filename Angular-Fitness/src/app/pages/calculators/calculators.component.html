@@ -6,9 +6,9 @@
         <div class="card mb-4" style="background: rgba(0, 0, 0, 0.5);">
           <div
             class="card-body"
-            style="display: flex; flex-direction: column; gap: 1rem"
+            style="display: flex; flex-direction: column;"
           >
-            <h2 class="card-title" style="color: teal">BMI CALCULATOR</h2>
+            <h2 class="card-title" style="color: teal;margin-bottom: 30px;">BMI CALCULATOR</h2>
             <form>
               <div class="form-group">
                 <label for="height" style="color: white">Height in cm:</label>
@@ -41,10 +41,11 @@
                 Calculate BMI
               </button>
             </form>
-            <p class="mt-3" style="color: white">
-              BMI Result: {{ bmiResult }}
+            <p class="mt-3" style="color: white;background-color: rgba(0, 128, 128, 0.4);;font-size: 18px; padding:10px; border-radius: 10px;">
+              BMI Result : {{ bmiResult }}
             </p>
           </div>
+          <img src="https://www.pnbmetlife.com/content/dam/pnb-metlife/images/icons/bmi-calculator/meter.png" style="width:  295px;">
         </div>
       </div>
 
@@ -110,9 +111,9 @@
             </form>
             <p
               class="mt-3"
-              style="color: white"
+              style="color: white;background-color: rgba(0, 128, 128, 0.4);font-size: 18px; padding:10px; border-radius: 10px;"
             >
-              Calories needed: {{ caloriesResult }}
+              Calories needed : {{ caloriesResult }}
             </p>
           </div>
         </div>

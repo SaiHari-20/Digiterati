@@ -19,6 +19,9 @@ import { AbsComponent } from './pages/workout-list/abs/abs.component';
 import { CardioComponent } from './pages/workout-list/cardio/cardio.component';
 import { LegsComponent } from './pages/workout-list/legs/legs.component';
 import { HttpClientModule } from '@angular/common/http';
+import { BeginnerComponent } from './pages/workout-plans/beginner/beginner.component';
+import { IntermediateComponent } from './pages/workout-plans/intermediate/intermediate.component';
+import { ProComponent } from './pages/workout-plans/pro/pro.component';
 
 
 
@@ -39,7 +42,10 @@ import { HttpClientModule } from '@angular/common/http';
     ShouldersComponent,
     AbsComponent,
     CardioComponent,
-    LegsComponent
+    LegsComponent,
+    BeginnerComponent,
+    IntermediateComponent,
+    ProComponent
   ],
   imports: [
     FormsModule,

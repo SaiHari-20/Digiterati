@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './workout-list.component.css'
 })
 export class WorkoutListComponent {
+
+  
   
 }
